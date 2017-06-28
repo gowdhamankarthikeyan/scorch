@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0ACE1C98-D8D6-4CC3-A8AB-5E63E19E30C2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Orchestrator_Health_Checker.My.MyApplication</StartupObject>
+    <RootNamespace>Orchestrator_Health_Checker</RootNamespace>
+    <AssemblyName>Orchestrator Health Checker</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Orchestrator Health Checker.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Orchestrator Health Checker.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SCOrch Health.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.Designer.vb">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clsUserPassTableUpdate.vb" />
+    <Compile Include="Common.vb" />
+    <Compile Include="dlgAudit_InvokeRunbookActByPath.Designer.vb">
+      <DependentUpon>dlgAudit_InvokeRunbookActByPath.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgAudit_InvokeRunbookActByPath.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgClientConnections.Designer.vb">
+      <DependentUpon>dlgClientConnections.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgClientConnections.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgFileUsageSize.Designer.vb">
+      <DependentUpon>dlgFileUsageSize.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgFileUsageSize.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DB.vb" />
+    <Compile Include="dlgAdminOptions.Designer.vb">
+      <DependentUpon>dlgAdminOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgAdminOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgFilterOptions.Designer.vb">
+      <DependentUpon>dlgFilterOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgFilterOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgFragmentationLevels.Designer.vb">
+      <DependentUpon>dlgFragmentationLevels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgFragmentationLevels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgInitialData.Designer.vb">
+      <DependentUpon>dlgInitialData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgInitialData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgLoggingEnabledRunbooks.Designer.vb">
+      <DependentUpon>dlgLoggingEnabledRunbooks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgLoggingEnabledRunbooks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgLogPurgeTrend.Designer.vb">
+      <DependentUpon>dlgLogPurgeTrend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgLogPurgeTrend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgPasswordChangeProgress.Designer.vb">
+      <DependentUpon>dlgPasswordChangeProgress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgPasswordChangeProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgPID.Designer.vb">
+      <DependentUpon>dlgPID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgPID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgProgress.Designer.vb">
+      <DependentUpon>dlgProgress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgRunbookAudit.Designer.vb">
+      <DependentUpon>dlgRunbookAudit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgRunbookAudit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgRunbookStatus.Designer.vb">
+      <DependentUpon>dlgRunbookStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgRunbookStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgRunningStatistics.Designer.vb">
+      <DependentUpon>dlgRunningStatistics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgRunningStatistics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgRunningStatistics_MonitorRunbooks.Designer.vb">
+      <DependentUpon>dlgRunningStatistics_MonitorRunbooks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgRunningStatistics_MonitorRunbooks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgSearching.Designer.vb">
+      <DependentUpon>dlgSearching.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgSearching.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgSearchObject.Designer.vb">
+      <DependentUpon>dlgSearchObject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgSearchObject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgSearchVariableUsage.Designer.vb">
+      <DependentUpon>dlgSearchVariableUsage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgSearchVariableUsage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgShowOrphans.Designer.vb">
+      <DependentUpon>dlgShowOrphans.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgShowOrphans.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgStopRunbooksOn.Designer.vb">
+      <DependentUpon>dlgStopRunbooksOn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgStopRunbooksOn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgSystemHealth.Designer.vb">
+      <DependentUpon>dlgSystemHealth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgSystemHealth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgTablesSize.Designer.vb">
+      <DependentUpon>dlgTablesSize.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgTablesSize.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgChangeUserPassword.Designer.vb">
+      <DependentUpon>dlgChangeUserPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgChangeUserPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalVariables.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Service References\wsSCORCH\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.datasvcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgAudit_InvokeRunbookActByPath.resx">
+      <DependentUpon>dlgAudit_InvokeRunbookActByPath.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgClientConnections.resx">
+      <DependentUpon>dlgClientConnections.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgFileUsageSize.resx">
+      <DependentUpon>dlgFileUsageSize.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgAdminOptions.resx">
+      <DependentUpon>dlgAdminOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgFilterOptions.resx">
+      <DependentUpon>dlgFilterOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgFragmentationLevels.resx">
+      <DependentUpon>dlgFragmentationLevels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgInitialData.resx">
+      <DependentUpon>dlgInitialData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgLoggingEnabledRunbooks.resx">
+      <DependentUpon>dlgLoggingEnabledRunbooks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgLogPurgeTrend.resx">
+      <DependentUpon>dlgLogPurgeTrend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgPasswordChangeProgress.resx">
+      <DependentUpon>dlgPasswordChangeProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgPID.resx">
+      <DependentUpon>dlgPID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgProgress.resx">
+      <DependentUpon>dlgProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgRunbookAudit.resx">
+      <DependentUpon>dlgRunbookAudit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgRunbookStatus.resx">
+      <DependentUpon>dlgRunbookStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgRunningStatistics.resx">
+      <DependentUpon>dlgRunningStatistics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgRunningStatistics_MonitorRunbooks.resx">
+      <DependentUpon>dlgRunningStatistics_MonitorRunbooks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgSearching.resx">
+      <DependentUpon>dlgSearching.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgSearchObject.resx">
+      <DependentUpon>dlgSearchObject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgSearchVariableUsage.resx">
+      <DependentUpon>dlgSearchVariableUsage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgShowOrphans.resx">
+      <DependentUpon>dlgShowOrphans.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgStopRunbooksOn.resx">
+      <DependentUpon>dlgStopRunbooksOn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgSystemHealth.resx">
+      <DependentUpon>dlgSystemHealth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgTablesSize.resx">
+      <DependentUpon>dlgTablesSize.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgChangeUserPassword.resx">
+      <DependentUpon>dlgChangeUserPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\wsSCORCH\service.edmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Working.gif" />
+    <None Include="Resources\OK.png" />
+    <None Include="Resources\Error.png" />
+    <None Include="Service References\wsSCORCH\Reference.datasvcmap">
+      <Generator>DataServiceClientGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\Run.png" />
+    <None Include="Resources\Wipe.png" />
+    <None Include="Resources\Close.png" />
+    <Content Include="ActivitiesInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Resources\Idea.png" />
+    <Content Include="SCOrch Health.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ServiceReferenceMetadataStorage Include="Service References\wsSCORCH\">
+      <Type>datasvcmap</Type>
+    </ServiceReferenceMetadataStorage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

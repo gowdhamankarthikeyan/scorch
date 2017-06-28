@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="PoSH_ISE_SMA_Browser.SMABrowserPane"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <StackPanel Background="White">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Service Management Automation Environment:  " />
+            <TextBlock Text="{Binding SMAServer}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Get Published" Command="{Binding GetLatestSelectedFileCommand}" />
+            <Button Content="Get Draft" Command="{Binding AddSelectedFileCommand}" />
+            <Button Content="Check In Draft" Command="{Binding CheckOutSelectedFileCommand}" />
+            <Button Content="Check In" Command="{Binding CheckInSelectedFileCommand}" />
+            <Button Content="Undo" Command="{Binding UndoSelectedFileCommand}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Server Path:" />
+            <TextBlock Text="{Binding SelectedServerPath}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Workspace:" />
+            <TextBlock Text="{Binding WorkspaceDisplayName}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Collection:" />
+            <TextBlock Text="{Binding CollectionUri}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Compare" Visibility="Hidden" />
+            <Button Content="Open" Visibility="Hidden" />
+            <Button Content="Refresh" Visibility="Hidden" />
+        </StackPanel>
+        <HierarchicalDataTemplate x:Key="NodeTemplate">
+            <TextBlock x:Name="tb"/>
+            <HierarchicalDataTemplate.ItemsSource>
+                <Binding XPath="child::node()" />
+            </HierarchicalDataTemplate.ItemsSource>
+            <HierarchicalDataTemplate.Triggers>
+
+                <DataTrigger Binding="{Binding Path=NodeType}" Value="Text">
+                    <Setter TargetName="tb" Property="Text" Value="{Binding Path=Value}"></Setter>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Path=NodeType}" Value="Element">
+                    <Setter TargetName="tb" Property="Text" Value="{Binding Path=Name}"></Setter>
+                </DataTrigger>
+            </HierarchicalDataTemplate.Triggers>
+        </HierarchicalDataTemplate>
+    </StackPanel>
+</UserControl>

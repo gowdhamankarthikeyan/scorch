@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Activities>
+  <Activity Name="Monitor Internet Application">
+    <TableName>EVENT_MONITORINTERNET</TableName>
+    <UserNameField>Username</UserNameField>
+    <PasswordField>Password</PasswordField>
+  </Activity>
+  <Activity Name="Monitor WMI">
+    <TableName>EVENT_WMI</TableName>
+    <UserNameField>UserName</UserNameField>
+    <PasswordField>Password</PasswordField>
+  </Activity>
+  <Activity Name="Monitor File">
+    <TableName>FM_FILEMONITOR</TableName>
+    <UserNameField>Username</UserNameField>
+    <PasswordField>Password</PasswordField>
+  </Activity>
+  <Activity Name="Monitor Folder">
+    <TableName>FM_FOLDERMONITOR</TableName>
+    <UserNameField>Username</UserNameField>
+    <PasswordField>Password</PasswordField>
+  </Activity>
+  <Activity Name="Run SSH Command">
+    <TableName>SSH_RUNCOMMAND</TableName>
+    <UserNameField>Username</UserNameField>
+    <PasswordField>Password</PasswordField>
+    <Condition>UsingPassword=1</Condition>
+  </Activity>
+  <Activity Name="Connect/Disconnect Dial-up">
+    <TableName>TASK_DIALUPNETWORKING</TableName>
+    <DomainNameField>DomainName</DomainNameField>
+    <UserNameField>Username</UserNameField>
+    <PasswordField>Password</PasswordField>
+  </Activity>
+  <Activity Name="Send Email">
+    <TableName>TASK_EMAIL</TableName>
+    <DomainNameField>Domain</DomainNameField>
+    <UserNameField>Username</UserNameField>
+    <PasswordField>Password</PasswordField>
+  </Activity>
+  <Activity Name="Get Internet Application Status">
+    <TableName>TASK_INTERNETSTATUS</TableName>
+    <UserNameField>Username</UserNameField>
+    <PasswordField>Password</PasswordField>
+  </Activity>
+  <Activity Name="Map Network Path">
+    <TableName>TASK_MAPNETWORKPATH</TableName>
+    <UserNameField>UserAccount</UserNameField>
+    <PasswordField>Password</PasswordField>
+  </Activity>
+  <Activity Name="Query Database">
+    <TableName>TASK_QUERYDATABASE</TableName>
+    <UserNameField>UserName</UserNameField>
+    <PasswordField>Password</PasswordField>
+    <Condition>DatabaseAuthentication=1</Condition>
+  </Activity>
+  <Activity Name="Query WMI">
+    <TableName>TASK_QUERYWMI</TableName>
+    <UserNameField>UserName</UserNameField>
+    <PasswordField>Password</PasswordField>
+  </Activity>
+  <Activity Name="Run Program">
+    <TableName>TASK_RUNPROGRAM</TableName>
+    <UserNameField>UserName</UserNameField>
+    <PasswordField>Password</PasswordField>
+  </Activity>
+  <Activity Name="Write To Database">
+    <TableName>TASK_WRITETODATABASE</TableName>
+    <UserNameField>UserName</UserNameField>
+    <PasswordField>Password</PasswordField>
+    <Condition>DatabaseAuthentication=1</Condition>
+  </Activity>
+  <Activity Name="Invoke Web Services">
+    <TableName>WS_INVOKE</TableName>
+    <UserNameField>UsernameHttpAuth</UserNameField>
+    <PasswordField>PasswordHttpAuth</PasswordField>
+    <Condition>EnableHttpAuth=1</Condition>
+  </Activity>
+  <Activity Name="Objects - Alternative Credentials">
+    <TableName>OBJECTS</TableName>
+    <UserNameField>ASC_Username</UserNameField>
+    <PasswordField>ASC_Password</PasswordField>
+    <Condition>ASC_ThisAccount=1</Condition>
+  </Activity>
+</Activities>

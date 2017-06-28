@@ -1,0 +1,7 @@
+Most icons are from Microsoft, see http://technet.microsoft.com/en-us/library/bb680602.aspx for an (incomplete) list of SCCM icons
+
+Some icons may contain references or modified icons from the following iconpacks:
+http://famfamfam.com/ (Mark James - Creative Commons (Attribution 2.5 Generic))
+http://www.everaldo.com/crystal/ (Everaldo Coelho - LGPL)
+http://momenticons.com/ (Momenticons - Creative Commons (Attribution 3.0 Unported))
+http://www.small-icons.com/ (Aha-Soft - Free for non-commercial projects)

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F9803110-CCB7-4304-9620-29A1A7A79328}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SCCMExtension</RootNamespace>
+    <AssemblyName>ConfigMgr2007Extension</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ADMINUI.WQLQUERYENGINE, Version=4.0.6000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>bin\Debug\ADMINUI.WQLQUERYENGINE.DLL</HintPath>
+    </Reference>
+    <Reference Include="microsoft.configurationmanagement, Version=4.0.6000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\microsoft.configurationmanagement.dll</HintPath>
+    </Reference>
+    <Reference Include="microsoft.configurationmanagement.managementprovider, Version=4.0.6000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>bin\Debug\microsoft.configurationmanagement.managementprovider.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SystemCenter.Orchestrator.Integration, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.SystemCenter.Orchestrator.Integration.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Objects\AddNewComputer.cs" />
+    <Compile Include="Objects\GetPackageDPs.cs" />
+    <Compile Include="Objects\ModifyProgramRemoveAllSupportedPlaforms.cs" />
+    <Compile Include="ReturnTypes\advertisement.cs" />
+    <Compile Include="Objects\AssignPackageToDP.cs" />
+    <Compile Include="Objects\AssociateComputerRecord.cs" />
+    <Compile Include="ReturnTypes\authorizationList.cs" />
+    <Compile Include="ReturnTypes\bootImagePackage.cs" />
+    <Compile Include="ReturnTypes\ClientAdvertisementStatus.cs" />
+    <Compile Include="ReturnTypes\collection.cs" />
+    <Compile Include="ReturnTypes\collectionMember.cs" />
+    <Compile Include="ReturnTypes\collectionVariable.cs" />
+    <Compile Include="ReturnTypes\ComputerVariable.cs" />
+    <Compile Include="ConnectionCredentials\ConnectionCredentials.cs" />
+    <Compile Include="Objects\CreateAdvertisement.cs" />
+    <Compile Include="Objects\CreateAuthorizationList.cs" />
+    <Compile Include="Objects\CreateCollection.cs" />
+    <Compile Include="Objects\CreateFolder.cs" />
+    <Compile Include="Objects\DeleteCollectionVariable.cs" />
+    <Compile Include="Objects\DeleteComputer.cs" />
+    <Compile Include="Objects\DeleteComputerVariable.cs" />
+    <Compile Include="Objects\DeleteFolder.cs" />
+    <Compile Include="Objects\DeleteGenericObject.cs" />
+    <Compile Include="Objects\GetFolder.cs" />
+    <Compile Include="Objects\GetFolderItem.cs" />
+    <Compile Include="Objects\ModifyAdvertisementSetAdvertFlags.cs" />
+    <Compile Include="Objects\ModifyAdvertisementSetNonRecurringAssignedSchedule.cs" />
+    <Compile Include="Objects\ModifyAdvertisementSetRecurringAssignedSchedule.cs.cs" />
+    <Compile Include="Objects\ModifyAdvertisementSetRemoteClientFlags.cs" />
+    <Compile Include="Objects\ModifyBootImagePackageSetPKGFlags.cs" />
+    <Compile Include="Objects\ModifyDriverPackageSetPKGFlags.cs" />
+    <Compile Include="Objects\ModifyImagePackageSetPKGFlags.cs" />
+    <Compile Include="Objects\ModifyOperatingSystemInstallPackageSetPKGFlags.cs" />
+    <Compile Include="Objects\ModifyPackageSetPKGFlags.cs" />
+    <Compile Include="Objects\ModifyProgramSetProgramFlags.cs" />
+    <Compile Include="Objects\ModifySoftwareUpdatesPackageSetPKGFlags.cs" />
+    <Compile Include="Objects\ModifyTaskSequencePackageSetPKGFlags.cs" />
+    <Compile Include="Objects\MoveFolder.cs" />
+    <Compile Include="Objects\MoveItemToFolder.cs" />
+    <Compile Include="ReturnTypes\DistributionPoint.cs" />
+    <Compile Include="ReturnTypes\ObjectContainerItem.cs" />
+    <Compile Include="ReturnTypes\ObjectContainerNode.cs" />
+    <Compile Include="Objects\SetCollectionVariable.cs" />
+    <Compile Include="Objects\SetComputerVariable.cs" />
+    <Compile Include="Objects\CreatePackage.cs" />
+    <Compile Include="Objects\CreateProgram.cs" />
+    <Compile Include="Objects\CreateSoftwareUpdatesPackage.cs" />
+    <Compile Include="Objects\CreateUpdatesAssignment.cs" />
+    <Compile Include="Objects\DeleteAdvertisement.cs" />
+    <Compile Include="Objects\DeleteCollection.cs" />
+    <Compile Include="Objects\DeletePackage.cs" />
+    <Compile Include="Objects\DeleteProgram.cs" />
+    <Compile Include="ReturnTypes\driver.cs" />
+    <Compile Include="Objects\GetAdvertisement.cs" />
+    <Compile Include="Objects\GetAuthorizationList.cs" />
+    <Compile Include="Objects\GetBootImagePackage.cs" />
+    <Compile Include="Objects\GetCollection.cs" />
+    <Compile Include="Objects\GetCollectionMembers.cs" />
+    <Compile Include="Objects\GetCollectionVariables.cs" />
+    <Compile Include="Objects\GetComputerVariables.cs" />
+    <Compile Include="Objects\GetDriver.cs" />
+    <Compile Include="Objects\GetDriverPackage.cs" />
+    <Compile Include="Objects\GetImagePackage.cs" />
+    <Compile Include="Objects\GetOperatingSystemInstallPackage.cs" />
+    <Compile Include="Objects\GetPackage.cs" />
+    <Compile Include="Objects\GetParentCollection.cs" />
+    <Compile Include="Objects\GetProgram.cs" />
+    <Compile Include="Objects\GetSoftwareUpdatesPackage.cs" />
+    <Compile Include="Objects\GetSubCollections.cs" />
+    <Compile Include="Objects\GetSystem.cs" />
+    <Compile Include="Objects\GetTaskSequencePackage.cs" />
+    <Compile Include="Objects\GetUpdatesAssignment.cs" />
+    <Compile Include="Objects\GetUser.cs" />
+    <Compile Include="Objects\GetUserGroup.cs" />
+    <Compile Include="ReturnTypes\imagePackage.cs" />
+    <Compile Include="Objects\ModifyAdvertisement.cs" />
+    <Compile Include="Objects\ModifyAuthorizationList.cs" />
+    <Compile Include="Objects\ModifyBootImagePackage.cs" />
+    <Compile Include="Objects\ModifyCollection.cs" />
+    <Compile Include="Objects\ModifyCollectionAddDirectMember.cs" />
+    <Compile Include="Objects\ModifyCollectionAddMembershipRule.cs" />
+    <Compile Include="Objects\ModifyDriver.cs" />
+    <Compile Include="Objects\ModifyDriverPackage.cs" />
+    <Compile Include="Objects\ModifyImagePackage.cs" />
+    <Compile Include="Objects\ModifyOperatingSystemInstallPackage.cs" />
+    <Compile Include="Objects\ModifyPackage.cs" />
+    <Compile Include="Objects\ModifyProgramSupportedPlatform.cs" />
+    <Compile Include="Objects\ModifyProgram.cs" />
+    <Compile Include="Objects\ModifySoftwareUpdatesPackage.cs" />
+    <Compile Include="Objects\ModifySoftwareUpdatesPackageAddCIs.cs" />
+    <Compile Include="Objects\ModifySoftwareUpdatesPackageRemoveCIs.cs" />
+    <Compile Include="Objects\ModifyTaskSequencePackage.cs" />
+    <Compile Include="Objects\ModifyUpdatesAssignment.cs" />
+    <Compile Include="Objects\ModifyUpdatesAssignmentAddCIs.cs" />
+    <Compile Include="Objects\ModifyUpdatesAssignmentRemoveCIs.cs" />
+    <Compile Include="ReturnTypes\package.cs" />
+    <Compile Include="ReturnTypes\program.cs" />
+    <Compile Include="Objects\RefreshCollection.cs" />
+    <Compile Include="Objects\RefreshPackageAtDP.cs" />
+    <Compile Include="Objects\RefreshPackageSource.cs" />
+    <Compile Include="Objects\RemoveCollectionMembership.cs" />
+    <Compile Include="Objects\RemovePackageFromDP.cs" />
+    <Compile Include="Objects\SetSCCMPackageDescription.cs" />
+    <Compile Include="Objects\SetSCCMPackageSourcePath.cs" />
+    <Compile Include="Objects\SynchronizeSoftwareUpdatePoint.cs" />
+    <Compile Include="ReturnTypes\system.cs" />
+    <Compile Include="ReturnTypes\taskSequencePackage.cs" />
+    <Compile Include="ReturnTypes\updatesAssignment.cs" />
+    <Compile Include="ReturnTypes\user.cs" />
+    <Compile Include="ReturnTypes\userGroup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Interop\SCCMInterop.csproj">
+      <Project>{4810C6EF-EF82-40E2-A105-464A539E7C15}</Project>
+      <Name>SCCMInterop</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

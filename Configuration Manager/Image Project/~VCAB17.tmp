@@ -1,0 +1,127 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+OPALIS_ICON_16          BITMAP                  "C:\\Projects\\TFS\\ImageProject\\Resources\\Opalis_Icon_16.bmp"
+OPALIS_ICON_32          BITMAP                  "C:\\Projects\\TFS\\ImageProject\\Resources\\Opalis_Icon_32.bmp"
+BMP_QIK_JAVA_16         BITMAP                  "C:\\Projects\\TFS\\ImageProject\\Resources\\java-object-task-16.bmp"
+BMP_QIK_JAVA_32         BITMAP                  "C:\\Projects\\TFS\\ImageProject\\Resources\\java-object-task-32.bmp"
+BMP_QIK_DOTNET_16       BITMAP                  "C:\\Projects\\TFS\\ImageProject\\Resources\\cs-object-task-16.bmp"
+BMP_QIK_DOTNET_32       BITMAP                  "C:\\Projects\\TFS\\ImageProject\\Resources\\cs-object-task-32.bmp"
+BMP_CATEGORY_32         BITMAP                  "C:\\Projects\\TFS\\ImageProject\\Resources\\quick-integration-kit-32.bmp"
+BMP_CATEGORY_16         BITMAP                  "C:\\Projects\\TFS\\ImageProject\\Resources\\quick-integration-kit-16.bmp"
+IDB_BITMAP82            BITMAP                  "Resources\\AddNewComputer_16.bmp"
+IDB_BITMAP83            BITMAP                  "Resources\\AddNewComputer_32.bmp"
+IDB_BITMAP84            BITMAP                  "Resources\\Advertisement_16.bmp"
+IDB_BITMAP85            BITMAP                  "Resources\\Advertisement_32.bmp"
+IDB_BITMAP86            BITMAP                  "Resources\\AssignPackagetoDP_16.bmp"
+IDB_BITMAP87            BITMAP                  "Resources\\AssignPackagetoDP_32.bmp"
+IDB_BITMAP88            BITMAP                  "Resources\\AssociateComputerRecord_16.bmp"
+IDB_BITMAP89            BITMAP                  "Resources\\AssociateComputerRecord_32.bmp"
+IDB_BITMAP90            BITMAP                  "Resources\\Collection_16.bmp"
+IDB_BITMAP91            BITMAP                  "Resources\\Collection_32.bmp"
+IDB_BITMAP92            BITMAP                  "Resources\\CreateAdvertisement_16.bmp"
+IDB_BITMAP93            BITMAP                  "Resources\\CreateAdvertisement_32.bmp"
+IDB_BITMAP94            BITMAP                  "Resources\\CreateCollection_16.bmp"
+IDB_BITMAP95            BITMAP                  "Resources\\CreateCollection_32.bmp"
+IDB_BITMAP96            BITMAP                  "Resources\\CreatePackage_16.bmp"
+IDB_BITMAP97            BITMAP                  "Resources\\CreatePackage_32.bmp"
+IDB_BITMAP98            BITMAP                  "Resources\\CreateProgram_16.bmp"
+IDB_BITMAP99            BITMAP                  "Resources\\CreateProgram_32.bmp"
+IDB_BITMAP100           BITMAP                  "Resources\\CreateSoftwareUpdatesPackage_16.bmp"
+IDB_BITMAP101           BITMAP                  "Resources\\CreateSoftwareUpdatesPackage_32.bmp"
+IDB_BITMAP102           BITMAP                  "Resources\\DeleteAdvertisement_16.bmp"
+IDB_BITMAP103           BITMAP                  "Resources\\DeleteAdvertisement_32.bmp"
+IDB_BITMAP104           BITMAP                  "Resources\\DeleteCollection_16.bmp"
+IDB_BITMAP105           BITMAP                  "Resources\\DeleteCollection_32.bmp"
+IDB_BITMAP106           BITMAP                  "Resources\\DeleteCollectionVariable_16.bmp"
+IDB_BITMAP107           BITMAP                  "Resources\\DeleteCollectionVariable_32.bmp"
+IDB_BITMAP108           BITMAP                  "Resources\\DeleteComputerVariable_16.bmp"
+IDB_BITMAP109           BITMAP                  "Resources\\DeleteComputerVariable_32.bmp"
+IDB_BITMAP110           BITMAP                  "Resources\\DeletePackage_16.bmp"
+IDB_BITMAP111           BITMAP                  "Resources\\DeletePackage_32.bmp"
+IDB_BITMAP112           BITMAP                  "Resources\\DeleteProgram_16.bmp"
+IDB_BITMAP113           BITMAP                  "Resources\\DeleteProgram_32.bmp"
+IDB_BITMAP114           BITMAP                  "Resources\\DriverPackage_16.bmp"
+IDB_BITMAP115           BITMAP                  "Resources\\DriverPackage_32.bmp"
+IDB_BITMAP116           BITMAP                  "Resources\\GetAdvertisement_16.bmp"
+IDB_BITMAP117           BITMAP                  "Resources\\GetAdvertisement_32.bmp"
+IDB_BITMAP118           BITMAP                  "Resources\\GetCollection_16.bmp"
+IDB_BITMAP119           BITMAP                  "Resources\\GetCollection_32.bmp"
+IDB_BITMAP120           BITMAP                  "Resources\\GetCollectionMember_16.bmp"
+IDB_BITMAP121           BITMAP                  "Resources\\GetCollectionMember_32.bmp"
+IDB_BITMAP122           BITMAP                  "Resources\\GetCollectionVariable_16.bmp"
+IDB_BITMAP123           BITMAP                  "Resources\\GetCollectionVariable_32.bmp"
+IDB_BITMAP124           BITMAP                  "Resources\\GetComputerVariable_16.bmp"
+IDB_BITMAP125           BITMAP                  "Resources\\GetComputerVariable_32.bmp"
+IDB_BITMAP126           BITMAP                  "Resources\\GetDriver_16.bmp"
+IDB_BITMAP127           BITMAP                  "Resources\\GetDriver_32.bmp"
+IDB_BITMAP128           BITMAP                  "Resources\\GetDriverPackage_16.bmp"
+IDB_BITMAP129           BITMAP                  "Resources\\GetDriverPackage_32.bmp"
+IDB_BITMAP130           BITMAP                  "Resources\\GetGroup_16.bmp"
+IDB_BITMAP131           BITMAP                  "Resources\\GetGroup_32.bmp"
+IDB_BITMAP132           BITMAP                  "Resources\\GetPackage_16.bmp"
+IDB_BITMAP133           BITMAP                  "Resources\\GetPackage_32.bmp"
+IDB_BITMAP134           BITMAP                  "Resources\\GetParentCollection_16.bmp"
+IDB_BITMAP135           BITMAP                  "Resources\\GetParentCollection_32.bmp"
+IDB_BITMAP136           BITMAP                  "Resources\\GetProgram_16.bmp"
+IDB_BITMAP137           BITMAP                  "Resources\\GetProgram_32.bmp"
+IDB_BITMAP138           BITMAP                  "Resources\\GetSoftwareUpdatesPackage_16.bmp"
+IDB_BITMAP139           BITMAP                  "Resources\\GetSoftwareUpdatesPackage_32.bmp"
+IDB_BITMAP140           BITMAP                  "Resources\\GetSubCollections_16.bmp"
+IDB_BITMAP141           BITMAP                  "Resources\\GetSubCollections_32.bmp"
+IDB_BITMAP142           BITMAP                  "Resources\\GetSystem_16.bmp"
+IDB_BITMAP143           BITMAP                  "Resources\\GetSystem_32.bmp"
+IDB_BITMAP144           BITMAP                  "Resources\\GetUser_16.bmp"
+IDB_BITMAP145           BITMAP                  "Resources\\GetUser_32.bmp"
+IDB_BITMAP146           BITMAP                  "Resources\\ModifyAdvertisement_16.bmp"
+IDB_BITMAP147           BITMAP                  "Resources\\ModifyAdvertisement_32.bmp"
+IDB_BITMAP148           BITMAP                  "Resources\\ModifyAdvertisementClientFlags_16.bmp"

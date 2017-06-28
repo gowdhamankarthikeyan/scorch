@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoSH_ISE_SMA_Browser", "PoSH_ISE_SMA_Browser\PoSH_ISE_SMA_Browser.csproj", "{43C93C1A-8AFB-4D2A-8AB4-3164B28F1A8D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs21
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PoSH_ISE_SMA_Browser\\PoSH_ISE_SMA_Browser.csproj
+		SccProjectName1 = PoSH_ISE_SMA_Browser
+		SccLocalPath1 = PoSH_ISE_SMA_Browser
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43C93C1A-8AFB-4D2A-8AB4-3164B28F1A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C93C1A-8AFB-4D2A-8AB4-3164B28F1A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C93C1A-8AFB-4D2A-8AB4-3164B28F1A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C93C1A-8AFB-4D2A-8AB4-3164B28F1A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

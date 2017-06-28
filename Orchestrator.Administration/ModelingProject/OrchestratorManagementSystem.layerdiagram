@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="bf31544b-6367-489c-bf1f-1826dc1dad26" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="322f0df7-c47a-44df-bc39-5c8da567c852" name="Orchestrator.Administration">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="be1b399b-3875-47f1-90e7-f746d5651a26" direction="Forward">
+          <layerMoniker Id="d1cccb0b-656a-45ab-87b6-845d98e97356" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="e6d83a4f-0851-46b9-9343-b705ada56490" direction="Forward">
+          <layerMoniker Id="3194607f-7786-45be-9375-1d74a2910c93" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="1923e0aa-d1d1-4ed5-afc7-41a9de67263c" name="Orchestrator.Administration.IntegrationPack">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="cd9d1acd-75e3-4cd9-a1cb-31521d9a54d0" direction="Forward">
+          <layerMoniker Id="322f0df7-c47a-44df-bc39-5c8da567c852" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="c21ec42e-1060-4f27-b0eb-de06a4261df6" name="Runbook Exporter">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="69056093-5198-4139-bf84-8f5061975cab" direction="Forward">
+          <layerMoniker Id="322f0df7-c47a-44df-bc39-5c8da567c852" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="b7b84514-48d9-42e9-8212-39676858eb62" name="Parse Orchestrator Export">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="6ec1a66d-4e2d-4e48-9f75-805c2670bc5d" direction="Forward">
+          <layerMoniker Id="322f0df7-c47a-44df-bc39-5c8da567c852" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="d1cccb0b-656a-45ab-87b6-845d98e97356" name="OpalisManagementServiceLib" />
+    <layer Id="3194607f-7786-45be-9375-1d74a2910c93" name="OrchestratorDB&#xD;&#xA;" />
+  </layers>
+</layerModel>

@@ -1,0 +1,335 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+BMP_QIK_JAVA_16         BITMAP                  "Resources\\java-object-task-16.bmp"
+BMP_QIK_JAVA_32         BITMAP                  "Resources\\java-object-task-32.bmp"
+BMP_QIK_DOTNET_16       BITMAP                  "Resources\\cs-object-task-16.bmp"
+BMP_QIK_DOTNET_32       BITMAP                  "Resources\\cs-object-task-32.bmp"
+BMP_CATEGORY_32         BITMAP                  "Resources\\quick-integration-kit-32.bmp"
+BMP_CATEGORY_16         BITMAP                  "Resources\\quick-integration-kit-16.bmp"
+AddNewComputer_16            BITMAP                  "Resources\\AddNewComputer_16.bmp"
+AddNewComputer_32            BITMAP                  "Resources\\AddNewComputer_32.bmp"
+Advertisement_16            BITMAP                  "Resources\\Advertisement_16.bmp"
+Advertisement_32            BITMAP                  "Resources\\Advertisement_32.bmp"
+AssignPackagetoDP_16            BITMAP                  "Resources\\AssignPackagetoDP_16.bmp"
+AssignPackagetoDP_32            BITMAP                  "Resources\\AssignPackagetoDP_32.bmp"
+AssociateComputerRecord_16            BITMAP                  "Resources\\AssociateComputerRecord_16.bmp"
+AssociateComputerRecord_32            BITMAP                  "Resources\\AssociateComputerRecord_32.bmp"
+Collection_16            BITMAP                  "Resources\\Collection_16.bmp"
+Collection_32            BITMAP                  "Resources\\Collection_32.bmp"
+CreateAdvertisement_16            BITMAP                  "Resources\\CreateAdvertisement_16.bmp"
+CreateAdvertisement_32            BITMAP                  "Resources\\CreateAdvertisement_32.bmp"
+CreateCollection_16            BITMAP                  "Resources\\CreateCollection_16.bmp"
+CreateCollection_32            BITMAP                  "Resources\\CreateCollection_32.bmp"
+CreatePackage_16            BITMAP                  "Resources\\CreatePackage_16.bmp"
+CreatePackage_32            BITMAP                  "Resources\\CreatePackage_32.bmp"
+CreateProgram_16            BITMAP                  "Resources\\CreateProgram_16.bmp"
+CreateProgram_32            BITMAP                  "Resources\\CreateProgram_32.bmp"
+CreateSoftwareUpdatesPackage_16           BITMAP                  "Resources\\CreateSoftwareUpdatesPackage_16.bmp"
+CreateSoftwareUpdatesPackage_32           BITMAP                  "Resources\\CreateSoftwareUpdatesPackage_32.bmp"
+DeleteAdvertisement_16           BITMAP                  "Resources\\DeleteAdvertisement_16.bmp"
+DeleteAdvertisement_32           BITMAP                  "Resources\\DeleteAdvertisement_32.bmp"
+DeleteCollection_16           BITMAP                  "Resources\\DeleteCollection_16.bmp"
+DeleteCollection_32           BITMAP                  "Resources\\DeleteCollection_32.bmp"
+DeleteCollectionVariable_16           BITMAP                  "Resources\\DeleteCollectionVariable_16.bmp"
+DeleteCollectionVariable_32           BITMAP                  "Resources\\DeleteCollectionVariable_32.bmp"
+DeleteComputerVariable_16           BITMAP                  "Resources\\DeleteComputerVariable_16.bmp"
+DeleteComputerVariable_32           BITMAP                  "Resources\\DeleteComputerVariable_32.bmp"
+DeletePackage_16           BITMAP                  "Resources\\DeletePackage_16.bmp"
+DeletePackage_32           BITMAP                  "Resources\\DeletePackage_32.bmp"
+DeleteProgram_16           BITMAP                  "Resources\\DeleteProgram_16.bmp"
+DeleteProgram_32           BITMAP                  "Resources\\DeleteProgram_32.bmp"
+DriverPackage_16           BITMAP                  "Resources\\DriverPackage_16.bmp"
+DriverPackage_32           BITMAP                  "Resources\\DriverPackage_32.bmp"
+GetAdvertisement_16           BITMAP                  "Resources\\GetAdvertisement_16.bmp"
+GetAdvertisement_32           BITMAP                  "Resources\\GetAdvertisement_32.bmp"
+GetCollection_16           BITMAP                  "Resources\\GetCollection_16.bmp"
+GetCollection_32           BITMAP                  "Resources\\GetCollection_32.bmp"
+GetCollectionMember_16           BITMAP                  "Resources\\GetCollectionMember_16.bmp"
+GetCollectionMember_32           BITMAP                  "Resources\\GetCollectionMember_32.bmp"
+GetCollectionVariable_16           BITMAP                  "Resources\\GetCollectionVariable_16.bmp"
+GetCollectionVariable_32           BITMAP                  "Resources\\GetCollectionVariable_32.bmp"
+GetComputerVariable_16           BITMAP                  "Resources\\GetComputerVariable_16.bmp"
+GetComputerVariable_32           BITMAP                  "Resources\\GetComputerVariable_32.bmp"
+GetDriver_16           BITMAP                  "Resources\\GetDriver_16.bmp"
+GetDriver_32           BITMAP                  "Resources\\GetDriver_32.bmp"
+GetDriverPackage_16           BITMAP                  "Resources\\GetDriverPackage_16.bmp"
+GetDriverPackage_32           BITMAP                  "Resources\\GetDriverPackage_32.bmp"
+GetGroup_16           BITMAP                  "Resources\\GetGroup_16.bmp"
+GetGroup_32           BITMAP                  "Resources\\GetGroup_32.bmp"
+GetPackage_16           BITMAP                  "Resources\\GetPackage_16.bmp"
+GetPackage_32           BITMAP                  "Resources\\GetPackage_32.bmp"
+GetParentCollection_16           BITMAP                  "Resources\\GetParentCollection_16.bmp"
+GetParentCollection_32           BITMAP                  "Resources\\GetParentCollection_32.bmp"
+GetProgram_16           BITMAP                  "Resources\\GetProgram_16.bmp"
+GetProgram_32           BITMAP                  "Resources\\GetProgram_32.bmp"
+GetSoftwareUpdatesPackage_16           BITMAP                  "Resources\\GetSoftwareUpdatesPackage_16.bmp"
+GetSoftwareUpdatesPackage_32           BITMAP                  "Resources\\GetSoftwareUpdatesPackage_32.bmp"
+GetSubCollections_16           BITMAP                  "Resources\\GetSubCollections_16.bmp"
+GetSubCollections_32           BITMAP                  "Resources\\GetSubCollections_32.bmp"
+GetSystem_16           BITMAP                  "Resources\\GetSystem_16.bmp"
+GetSystem_32           BITMAP                  "Resources\\GetSystem_32.bmp"
+GetUser_16           BITMAP                  "Resources\\GetUser_16.bmp"
+GetUser_32           BITMAP                  "Resources\\GetUser_32.bmp"
+ModifyAdvertisement_16           BITMAP                  "Resources\\ModifyAdvertisement_16.bmp"
+ModifyAdvertisement_32           BITMAP                  "Resources\\ModifyAdvertisement_32.bmp"
+ModifyAdvertisementClientFlags_16           BITMAP                  "Resources\\ModifyAdvertisementClientFlags_16.bmp"
+ModifyAdvertisementClientFlags_32           BITMAP                  "Resources\\ModifyAdvertisementClientFlags_32.bmp"
+ModifyAdvertisementFlags_16           BITMAP                  "Resources\\ModifyAdvertisementFlags_16.bmp"
+ModifyAdvertisementFlags_32           BITMAP                  "Resources\\ModifyAdvertisementFlags_32.bmp"
+ModifyCollection_16           BITMAP                  "Resources\\ModifyCollection_16.bmp"
+ModifyCollection_32           BITMAP                  "Resources\\ModifyCollection_32.bmp"
+ModifyCollectionAddDirectMember_16           BITMAP                  "Resources\\ModifyCollectionAddDirectMember_16.bmp"
+ModifyCollectionAddDirectMember_32           BITMAP                  "Resources\\ModifyCollectionAddDirectMember_32.bmp"
+ModifyCollectionAddMembershipRule_16           BITMAP                  "Resources\\ModifyCollectionAddMembershipRule_16.bmp"
+ModifyCollectionAddMembershipRule_32           BITMAP                  "Resources\\ModifyCollectionAddMembershipRule_32.bmp"
+ModifyDriver_16           BITMAP                  "Resources\\ModifyDriver_16.bmp"
+ModifyDriver_32           BITMAP                  "Resources\\ModifyDriver_32.bmp"
+ModifyDriverPackage_16           BITMAP                  "Resources\\ModifyDriverPackage_16.bmp"
+ModifyDriverPackage_32           BITMAP                  "Resources\\ModifyDriverPackage_32.bmp"
+ModifyDriverPackageFlags_16           BITMAP                  "Resources\\ModifyDriverPackageFlags_16.bmp"
+ModifyDriverPackageFlags_32           BITMAP                  "Resources\\ModifyDriverPackageFlags_32.bmp"
+ModifyPackage_16           BITMAP                  "Resources\\ModifyPackage_16.bmp"
+ModifyPackage_32           BITMAP                  "Resources\\ModifyPackage_32.bmp"
+ModifyPackageFlags_16           BITMAP                  "Resources\\ModifyPackageFlags_16.bmp"
+ModifyPackageFlags_32           BITMAP                  "Resources\\ModifyPackageFlags_32.bmp"
+ModifyProgram_16           BITMAP                  "Resources\\ModifyProgram_16.bmp"
+ModifyProgram_32           BITMAP                  "Resources\\ModifyProgram_32.bmp"
+ModifyProgramFlags_16           BITMAP                  "Resources\\ModifyProgramFlags_16.bmp"
+ModifyProgramFlags_32           BITMAP                  "Resources\\ModifyProgramFlags_32.bmp"
+ModifyProgramSupportedPlatforms_16           BITMAP                  "Resources\\ModifyProgramSupportedPlatforms_16.bmp"
+ModifyProgramSupportedPlatforms_32           BITMAP                  "Resources\\ModifyProgramSupportedPlatforms_32.bmp"
+ModifySoftwareUpdatesPackage_16           BITMAP                  "Resources\\ModifySoftwareUpdatesPackage_16.bmp"
+ModifySoftwareUpdatesPackage_32           BITMAP                  "Resources\\ModifySoftwareUpdatesPackage_32.bmp"
+ModifySoftwareUpdatesPackageFlags_16           BITMAP                  "Resources\\ModifySoftwareUpdatesPackageFlags_16.bmp"
+ModifySoftwareUpdatesPackageFlags_32           BITMAP                  "Resources\\ModifySoftwareUpdatesPackageFlags_32.bmp"
+ModifyUpdatesAssignment_16           BITMAP                  "Resources\\ModifyUpdatesAssignment_16.bmp"
+ModifyUpdatesAssignment_32           BITMAP                  "Resources\\ModifyUpdatesAssignment_32.bmp"
+ModifyUpdatesAssignmentAddCIs_16           BITMAP                  "Resources\\ModifyUpdatesAssignmentAddCIs_16.bmp"
+ModifyUpdatesAssignmentAddCIs_32           BITMAP                  "Resources\\ModifyUpdatesAssignmentAddCIs_32.bmp"
+ModifyUpdatesAssignmentRemoveCIs_16           BITMAP                  "Resources\\ModifyUpdatesAssignmentRemoveCIs_16.bmp"
+ModifyUpdatesAssignmentRemoveCIs_32           BITMAP                  "Resources\\ModifyUpdatesAssignmentRemoveCIs_32.bmp"
+Package_16           BITMAP                  "Resources\\Package_16.bmp"
+Package_32           BITMAP                  "Resources\\Package_32.bmp"
+Program_16           BITMAP                  "Resources\\Program_16.bmp"
+Program_32           BITMAP                  "Resources\\Program_32.bmp"
+Query_16           BITMAP                  "Resources\\Query_16.bmp"
+Query_32           BITMAP                  "Resources\\Query_32.bmp"
+RefreshCollection_16           BITMAP                  "Resources\\RefreshCollection_16.bmp"
+RefreshCollection_32           BITMAP                  "Resources\\RefreshCollection_32.bmp"
+RefreshPackageatDistributionPoint_16           BITMAP                  "Resources\\RefreshPackageatDistributionPoint_16.bmp"
+RefreshPackageatDistributionPoint_32           BITMAP                  "Resources\\RefreshPackageatDistributionPoint_32.bmp"
+RefreshPackageSource_16           BITMAP                  "Resources\\RefreshPackageSource_16.bmp"
+RefreshPackageSource_32           BITMAP                  "Resources\\RefreshPackageSource_32.bmp"
+RemoveCollectionMembership_16           BITMAP                  "Resources\\RemoveCollectionMembership_16.bmp"
+RemoveCollectionMembership_32           BITMAP                  "Resources\\RemoveCollectionMembership_32.bmp"
+RemovePackagefromDistributionPoint_16           BITMAP                  "Resources\\RemovePackagefromDistributionPoint_16.bmp"
+RemovePackagefromDistributionPoint_32           BITMAP                  "Resources\\RemovePackagefromDistributionPoint_32.bmp"
+SetCollectionVariable_16           BITMAP                  "Resources\\SetCollectionVariable_16.bmp"
+SetCollectionVariable_32           BITMAP                  "Resources\\SetCollectionVariable_32.bmp"
+SetComputerVariable_16           BITMAP                  "Resources\\SetComputerVariable_16.bmp"
+SetComputerVariable_32           BITMAP                  "Resources\\SetComputerVariable_32.bmp"
+SetPackageDescription_16           BITMAP                  "Resources\\SetPackageDescription_16.bmp"
+SetPackageDescription_32           BITMAP                  "Resources\\SetPackageDescription_32.bmp"
+SetPackageSource_16           BITMAP                  "Resources\\SetPackageSource_16.bmp"
+SetPackageSource_32           BITMAP                  "Resources\\SetPackageSource_32.bmp"
+SoftwareUpdate_16           BITMAP                  "Resources\\SoftwareUpdate_16.bmp"
+SoftwareUpdate_32           BITMAP                  "Resources\\SoftwareUpdate_32.bmp"
+SoftwareUpdatesPackage_16           BITMAP                  "Resources\\SoftwareUpdatesPackage_16.bmp"
+SoftwareUpdatesPackage_32           BITMAP                  "Resources\\SoftwareUpdatesPackage_32.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,0,1
+ PRODUCTVERSION 3,0,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Your Company"
+            VALUE "FileDescription", "Common Resources"
+            VALUE "FileVersion", "3, 0, 0, 1"
+            VALUE "InternalName", "QIK"
+            VALUE "LegalCopyright", "Copyright (C) 2010"
+            VALUE "OriginalFilename", "QIK.Wizard.Images"
+            VALUE "ProductName", "Quick Integration Kit"
+            VALUE "ProductVersion", "3, 0, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Resources\\AddDP.ico"
+IDI_ICON2               ICON                    "Resources\\AddNewComputer.ico"
+IDI_ICON3               ICON                    "Resources\\Advertisement.ico"
+IDI_ICON4               ICON                    "Resources\\arrow.ico"
+IDI_ICON5               ICON                    "Resources\\AssignPackagetoDP.ico"
+IDI_ICON6               ICON                    "Resources\\AssociateComputerRecord.ico"
+IDI_ICON7               ICON                    "Resources\\Collection.ico"
+IDI_ICON8               ICON                    "Resources\\CreateAdvertisement.ico"
+IDI_ICON9               ICON                    "Resources\\CreateCollection.ico"
+IDI_ICON10              ICON                    "Resources\\CreatePackage.ico"
+IDI_ICON11              ICON                    "Resources\\CreateProgram.ico"
+IDI_ICON12              ICON                    "Resources\\CreateSoftwareUpdatesPackage.ico"
+IDI_ICON13              ICON                    "Resources\\Delete.ico"
+IDI_ICON14              ICON                    "Resources\\DeleteAdvertisement.ico"
+IDI_ICON15              ICON                    "Resources\\DeleteCollection.ico"
+IDI_ICON16              ICON                    "Resources\\DeleteCollectionVariable.ico"
+IDI_ICON17              ICON                    "Resources\\DeleteComputerVariable.ico"
+IDI_ICON18              ICON                    "Resources\\DeletePackage.ico"
+IDI_ICON19              ICON                    "Resources\\DeleteProgram.ico"
+IDI_ICON20              ICON                    "Resources\\DirectMembership.ico"
+IDI_ICON21              ICON                    "Resources\\driver.ico"
+IDI_ICON22              ICON                    "Resources\\DriverPackage.ico"
+IDI_ICON23              ICON                    "Resources\\Edit.ico"
+IDI_ICON24              ICON                    "Resources\\Flags.ico"
+IDI_ICON25              ICON                    "Resources\\Get.ico"
+IDI_ICON26              ICON                    "Resources\\GetAdvertisement.ico"
+IDI_ICON27              ICON                    "Resources\\GetCollection.ico"
+IDI_ICON28              ICON                    "Resources\\GetCollectionMember.ico"
+IDI_ICON29              ICON                    "Resources\\GetCollectionVariable.ico"
+IDI_ICON30              ICON                    "Resources\\GetComputerVariable.ico"
+IDI_ICON31              ICON                    "Resources\\GetDriver.ico"
+IDI_ICON32              ICON                    "Resources\\GetDriverPackage.ico"
+IDI_ICON33              ICON                    "Resources\\GetGroup.ico"
+IDI_ICON34              ICON                    "Resources\\GetPackage.ico"
+IDI_ICON35              ICON                    "Resources\\GetParentCollection.ico"
+IDI_ICON36              ICON                    "Resources\\GetProgram.ico"
+IDI_ICON37              ICON                    "Resources\\GetSoftwareUpdatesPackage.ico"
+IDI_ICON38              ICON                    "Resources\\GetSubCollections.ico"
+IDI_ICON39              ICON                    "Resources\\GetSystem.ico"
+IDI_ICON40              ICON                    "Resources\\GetUser.ico"
+IDI_ICON41              ICON                    "Resources\\Group.ico"
+IDI_ICON42              ICON                    "Resources\\icon1.ico"
+IDI_ICON43              ICON                    "Resources\\ModifyAdvertisement.ico"
+IDI_ICON44              ICON                    "Resources\\ModifyAdvertisementClientFlags.ico"
+IDI_ICON45              ICON                    "Resources\\ModifyAdvertisementFlags.ico"
+IDI_ICON46              ICON                    "Resources\\ModifyCollection.ico"
+IDI_ICON47              ICON                    "Resources\\ModifyCollectionAddDirectMember.ico"
+IDI_ICON48              ICON                    "Resources\\ModifyCollectionAddMembershipRule.ico"
+IDI_ICON49              ICON                    "Resources\\ModifyDriver.ico"
+IDI_ICON50              ICON                    "Resources\\ModifyDriverPackage.ico"
+IDI_ICON51              ICON                    "Resources\\ModifyDriverPackageFlags.ico"
+IDI_ICON52              ICON                    "Resources\\ModifyPackage.ico"
+IDI_ICON53              ICON                    "Resources\\ModifyPackageFlags.ico"
+IDI_ICON54              ICON                    "Resources\\ModifyProgram.ico"
+IDI_ICON55              ICON                    "Resources\\ModifyProgramFlags.ico"
+IDI_ICON56              ICON                    "Resources\\ModifyProgramSupportedPlatforms.ico"
+IDI_ICON57              ICON                    "Resources\\ModifySoftwareUpdatesPackage.ico"
+IDI_ICON58              ICON                    "Resources\\ModifySoftwareUpdatesPackageFlags.ico"
+IDI_ICON59              ICON                    "Resources\\ModifyUpdatesAssignment.ico"
+IDI_ICON60              ICON                    "Resources\\ModifyUpdatesAssignmentAddCIs.ico"
+IDI_ICON61              ICON                    "Resources\\ModifyUpdatesAssignmentRemoveCIs.ico"
+IDI_ICON62              ICON                    "Resources\\New.ico"
+IDI_ICON63              ICON                    "Resources\\Package.ico"
+IDI_ICON64              ICON                    "Resources\\Package_blank.ico"
+IDI_ICON65              ICON                    "Resources\\Program.ico"
+IDI_ICON66              ICON                    "Resources\\Query.ico"
+IDI_ICON67              ICON                    "Resources\\refresh.ico"
+IDI_ICON68              ICON                    "Resources\\RefreshCollection.ico"
+IDI_ICON69              ICON                    "Resources\\RefreshDP.ico"
+IDI_ICON70              ICON                    "Resources\\RefreshPackageatDistributionPoint.ico"
+IDI_ICON71              ICON                    "Resources\\RefreshPackageSource.ico"
+IDI_ICON72              ICON                    "Resources\\RemoveCollectionMembership.ico"
+IDI_ICON73              ICON                    "Resources\\RemoveDP.ico"
+IDI_ICON74              ICON                    "Resources\\RemovePackagefromDistributionPoint.ico"
+IDI_ICON75              ICON                    "Resources\\SetCollectionVariable.ico"
+IDI_ICON76              ICON                    "Resources\\SetComputerVariable.ico"
+IDI_ICON77              ICON                    "Resources\\SetPackageDescription.ico"
+IDI_ICON78              ICON                    "Resources\\SetPackageSource.ico"
+IDI_ICON79              ICON                    "Resources\\small_add.ico"
+IDI_ICON80              ICON                    "Resources\\small_client.ico"
+IDI_ICON81              ICON                    "Resources\\small_remove.ico"
+IDI_ICON82              ICON                    "Resources\\SoftwareUpdate.ico"
+IDI_ICON83              ICON                    "Resources\\SoftwareUpdatesPackage.ico"
+IDI_ICON84              ICON                    "Resources\\supported_platforms.ico"
+IDI_ICON85              ICON                    "Resources\\User.ico"
+IDI_ICON86              ICON                    "Resources\\Variable.ico"
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

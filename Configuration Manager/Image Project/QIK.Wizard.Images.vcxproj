@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2323237C-E163-4F20-868E-46F95BDDED23}</ProjectGuid>
+    <RootNamespace>QIKWizardImages</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+    <ProjectName>SCCMExtension.Images</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SCCMExtension.Images</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;QIKWIZARDIMAGES_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;QIKWIZARDIMAGES_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)Opalis.$(ProjectName).dll</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="QIK.Wizard.Images.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about.txt" />
+    <None Include="Resources\AddDP.ico" />
+    <None Include="Resources\AddNewComputer.ico" />
+    <None Include="Resources\AddNewComputer_16.bmp" />
+    <None Include="Resources\AddNewComputer_32.bmp" />
+    <None Include="Resources\Advertisement.ico" />
+    <None Include="Resources\Advertisement_16.bmp" />
+    <None Include="Resources\Advertisement_32.bmp" />
+    <None Include="Resources\arrow.ico" />
+    <None Include="Resources\AssignPackagetoDP.ico" />
+    <None Include="Resources\AssignPackagetoDP_16.bmp" />
+    <None Include="Resources\AssignPackagetoDP_32.bmp" />
+    <None Include="Resources\AssociateComputerRecord.ico" />
+    <None Include="Resources\AssociateComputerRecord_16.bmp" />
+    <None Include="Resources\AssociateComputerRecord_32.bmp" />
+    <None Include="Resources\Collection.ico" />
+    <None Include="Resources\Collection_16.bmp" />
+    <None Include="Resources\Collection_32.bmp" />
+    <None Include="Resources\CreateAdvertisement.ico" />
+    <None Include="Resources\CreateAdvertisement_16.bmp" />
+    <None Include="Resources\CreateAdvertisement_32.bmp" />
+    <None Include="Resources\CreateCollection.ico" />
+    <None Include="Resources\CreateCollection_16.bmp" />
+    <None Include="Resources\CreateCollection_32.bmp" />
+    <None Include="Resources\CreatePackage.ico" />
+    <None Include="Resources\CreatePackage_16.bmp" />
+    <None Include="Resources\CreatePackage_32.bmp" />
+    <None Include="Resources\CreateProgram.ico" />
+    <None Include="Resources\CreateProgram_16.bmp" />
+    <None Include="Resources\CreateProgram_32.bmp" />
+    <None Include="Resources\CreateSoftwareUpdatesPackage.ico" />
+    <None Include="Resources\CreateSoftwareUpdatesPackage_16.bmp" />
+    <None Include="Resources\CreateSoftwareUpdatesPackage_32.bmp" />
+    <None Include="Resources\cs-object-task-16.bmp" />
+    <None Include="Resources\cs-object-task-32.bmp" />
+    <None Include="Resources\Delete.ico" />
+    <None Include="Resources\DeleteAdvertisement.ico" />
+    <None Include="Resources\DeleteAdvertisement_16.bmp" />
+    <None Include="Resources\DeleteAdvertisement_32.bmp" />
+    <None Include="Resources\DeleteCollection.ico" />
+    <None Include="Resources\DeleteCollectionVariable.ico" />
+    <None Include="Resources\DeleteCollectionVariable_16.bmp" />
+    <None Include="Resources\DeleteCollectionVariable_32.bmp" />
+    <None Include="Resources\DeleteCollection_16.bmp" />
+    <None Include="Resources\DeleteCollection_32.bmp" />
+    <None Include="Resources\DeleteComputerVariable.ico" />
+    <None Include="Resources\DeleteComputerVariable_16.bmp" />
+    <None Include="Resources\DeleteComputerVariable_32.bmp" />
+    <None Include="Resources\DeletePackage.ico" />
+    <None Include="Resources\DeletePackage_16.bmp" />
+    <None Include="Resources\DeletePackage_32.bmp" />
+    <None Include="Resources\DeleteProgram.ico" />
+    <None Include="Resources\DeleteProgram_16.bmp" />
+    <None Include="Resources\DeleteProgram_32.bmp" />
+    <None Include="Resources\DirectMembership.ico" />
+    <None Include="Resources\driver.ico" />
+    <None Include="Resources\DriverPackage.ico" />
+    <None Include="Resources\DriverPackage_16.bmp" />
+    <None Include="Resources\DriverPackage_32.bmp" />
+    <None Include="Resources\Edit.ico" />
+    <None Include="Resources\Flags.ico" />
+    <None Include="Resources\Get.ico" />
+    <None Include="Resources\GetAdvertisement.ico" />
+    <None Include="Resources\GetAdvertisement_16.bmp" />
+    <None Include="Resources\GetAdvertisement_32.bmp" />
+    <None Include="Resources\GetCollection.ico" />
+    <None Include="Resources\GetCollectionMember.ico" />
+    <None Include="Resources\GetCollectionMember_16.bmp" />
+    <None Include="Resources\GetCollectionMember_32.bmp" />
+    <None Include="Resources\GetCollectionVariable.ico" />
+    <None Include="Resources\GetCollectionVariable_16.bmp" />
+    <None Include="Resources\GetCollectionVariable_32.bmp" />
+    <None Include="Resources\GetCollection_16.bmp" />
+    <None Include="Resources\GetCollection_32.bmp" />
+    <None Include="Resources\GetComputerVariable.ico" />
+    <None Include="Resources\GetComputerVariable_16.bmp" />
+    <None Include="Resources\GetComputerVariable_32.bmp" />
+    <None Include="Resources\GetDriver.ico" />
+    <None Include="Resources\GetDriverPackage.ico" />
+    <None Include="Resources\GetDriverPackage_16.bmp" />
+    <None Include="Resources\GetDriverPackage_32.bmp" />
+    <None Include="Resources\GetDriver_16.bmp" />
+    <None Include="Resources\GetDriver_32.bmp" />
+    <None Include="Resources\GetGroup.ico" />
+    <None Include="Resources\GetGroup_16.bmp" />
+    <None Include="Resources\GetGroup_32.bmp" />
+    <None Include="Resources\GetPackage.ico" />
+    <None Include="Resources\GetPackage_16.bmp" />
+    <None Include="Resources\GetPackage_32.bmp" />
+    <None Include="Resources\GetParentCollection.ico" />
+    <None Include="Resources\GetParentCollection_16.bmp" />
+    <None Include="Resources\GetParentCollection_32.bmp" />
+    <None Include="Resources\GetProgram.ico" />
+    <None Include="Resources\GetProgram_16.bmp" />
+    <None Include="Resources\GetProgram_32.bmp" />
+    <None Include="Resources\GetSoftwareUpdatesPackage.ico" />
+    <None Include="Resources\GetSoftwareUpdatesPackage_16.bmp" />
+    <None Include="Resources\GetSoftwareUpdatesPackage_32.bmp" />
+    <None Include="Resources\GetSubCollections.ico" />
+    <None Include="Resources\GetSubCollections_16.bmp" />
+    <None Include="Resources\GetSubCollections_32.bmp" />
+    <None Include="Resources\GetSystem.ico" />
+    <None Include="Resources\GetSystem_16.bmp" />
+    <None Include="Resources\GetSystem_32.bmp" />
+    <None Include="Resources\GetUser.ico" />
+    <None Include="Resources\GetUser_16.bmp" />
+    <None Include="Resources\GetUser_32.bmp" />
+    <None Include="Resources\Group.ico" />
+    <None Include="resources\icon1.ico" />
+    <None Include="Resources\IconProgress.xlsx" />
+    <None Include="Resources\java-object-task-16.bmp" />
+    <None Include="Resources\java-object-task-32.bmp" />
+    <None Include="Resources\ModifyAdvertisement.ico" />
+    <None Include="Resources\ModifyAdvertisementClientFlags.ico" />
+    <None Include="Resources\ModifyAdvertisementClientFlags_16.bmp" />
+    <None Include="Resources\ModifyAdvertisementClientFlags_32.bmp" />
+    <None Include="Resources\ModifyAdvertisementFlags.ico" />
+    <None Include="Resources\ModifyAdvertisementFlags_16.bmp" />
+    <None Include="Resources\ModifyAdvertisementFlags_32.bmp" />
+    <None Include="Resources\ModifyAdvertisement_16.bmp" />
+    <None Include="Resources\ModifyAdvertisement_32.bmp" />
+    <None Include="Resources\ModifyCollection.ico" />
+    <None Include="Resources\ModifyCollectionAddDirectMember.ico" />
+    <None Include="Resources\ModifyCollectionAddDirectMember_16.bmp" />
+    <None Include="Resources\ModifyCollectionAddDirectMember_32.bmp" />
+    <None Include="Resources\ModifyCollectionAddMembershipRule.ico" />
+    <None Include="Resources\ModifyCollectionAddMembershipRule_16.bmp" />
+    <None Include="Resources\ModifyCollectionAddMembershipRule_32.bmp" />
+    <None Include="Resources\ModifyCollection_16.bmp" />
+    <None Include="Resources\ModifyCollection_32.bmp" />
+    <None Include="Resources\ModifyDriver.ico" />
+    <None Include="Resources\ModifyDriverPackage.ico" />
+    <None Include="Resources\ModifyDriverPackageFlags.ico" />
+    <None Include="Resources\ModifyDriverPackageFlags_16.bmp" />
+    <None Include="Resources\ModifyDriverPackageFlags_32.bmp" />
+    <None Include="Resources\ModifyDriverPackage_16.bmp" />
+    <None Include="Resources\ModifyDriverPackage_32.bmp" />
+    <None Include="Resources\ModifyDriver_16.bmp" />
+    <None Include="Resources\ModifyDriver_32.bmp" />
+    <None Include="Resources\ModifyPackage.ico" />
+    <None Include="Resources\ModifyPackageFlags.ico" />
+    <None Include="Resources\ModifyPackageFlags_16.bmp" />
+    <None Include="Resources\ModifyPackageFlags_32.bmp" />
+    <None Include="Resources\ModifyPackage_16.bmp" />
+    <None Include="Resources\ModifyPackage_32.bmp" />
+    <None Include="Resources\ModifyProgram.ico" />
+    <None Include="Resources\ModifyProgramFlags.ico" />
+    <None Include="Resources\ModifyProgramFlags_16.bmp" />
+    <None Include="Resources\ModifyProgramFlags_32.bmp" />
+    <None Include="Resources\ModifyProgramSupportedPlatforms.ico" />
+    <None Include="Resources\ModifyProgramSupportedPlatforms_16.bmp" />
+    <None Include="Resources\ModifyProgramSupportedPlatforms_32.bmp" />
+    <None Include="Resources\ModifyProgram_16.bmp" />
+    <None Include="Resources\ModifyProgram_32.bmp" />
+    <None Include="Resources\ModifySoftwareUpdatesPackage.ico" />
+    <None Include="Resources\ModifySoftwareUpdatesPackageFlags.ico" />
+    <None Include="Resources\ModifySoftwareUpdatesPackageFlags_16.bmp" />
+    <None Include="Resources\ModifySoftwareUpdatesPackageFlags_32.bmp" />
+    <None Include="Resources\ModifySoftwareUpdatesPackage_16.bmp" />
+    <None Include="Resources\ModifySoftwareUpdatesPackage_32.bmp" />
+    <None Include="Resources\ModifyUpdatesAssignment.ico" />
+    <None Include="Resources\ModifyUpdatesAssignmentAddCIs.ico" />
+    <None Include="Resources\ModifyUpdatesAssignmentAddCIs_16.bmp" />
+    <None Include="Resources\ModifyUpdatesAssignmentAddCIs_32.bmp" />
+    <None Include="Resources\ModifyUpdatesAssignmentRemoveCIs.ico" />
+    <None Include="Resources\ModifyUpdatesAssignmentRemoveCIs_16.bmp" />
+    <None Include="Resources\ModifyUpdatesAssignmentRemoveCIs_32.bmp" />
+    <None Include="Resources\ModifyUpdatesAssignment_16.bmp" />
+    <None Include="Resources\ModifyUpdatesAssignment_32.bmp" />
+    <None Include="Resources\New.ico" />
+    <None Include="Resources\Opalis.ico" />
+    <None Include="Resources\Opalis_Icon_16.bmp" />
+    <None Include="Resources\Opalis_Icon_32.bmp" />
+    <None Include="Resources\Package.ico" />
+    <None Include="Resources\Package_16.bmp" />
+    <None Include="Resources\Package_32.bmp" />
+    <None Include="Resources\Package_blank.ico" />
+    <None Include="Resources\Program.ico" />
+    <None Include="Resources\Program_16.bmp" />
+    <None Include="Resources\Program_32.bmp" />
+    <None Include="Resources\Query.ico" />
+    <None Include="Resources\Query_16.bmp" />
+    <None Include="Resources\Query_32.bmp" />
+    <None Include="Resources\quick-integration-kit-16.bmp" />
+    <None Include="Resources\quick-integration-kit-32.bmp" />
+    <None Include="ReadMe.txt" />
+    <None Include="Resources\refresh.ico" />
+    <None Include="Resources\RefreshCollection.ico" />
+    <None Include="Resources\RefreshCollection_16.bmp" />
+    <None Include="Resources\RefreshCollection_32.bmp" />
+    <None Include="Resources\RefreshDP.ico" />
+    <None Include="Resources\RefreshPackageatDistributionPoint.ico" />
+    <None Include="Resources\RefreshPackageatDistributionPoint_16.bmp" />
+    <None Include="Resources\RefreshPackageatDistributionPoint_32.bmp" />
+    <None Include="Resources\RefreshPackageSource.ico" />
+    <None Include="Resources\RefreshPackageSource_16.bmp" />
+    <None Include="Resources\RefreshPackageSource_32.bmp" />
+    <None Include="Resources\RemoveCollectionMembership.ico" />
+    <None Include="Resources\RemoveCollectionMembership_16.bmp" />
+    <None Include="Resources\RemoveCollectionMembership_32.bmp" />
+    <None Include="Resources\RemoveDP.ico" />
+    <None Include="Resources\RemovePackagefromDistributionPoint.ico" />
+    <None Include="Resources\RemovePackagefromDistributionPoint_16.bmp" />
+    <None Include="Resources\RemovePackagefromDistributionPoint_32.bmp" />
+    <None Include="Resources\SetCollectionVariable.ico" />
+    <None Include="Resources\SetCollectionVariable_16.bmp" />
+    <None Include="Resources\SetCollectionVariable_32.bmp" />
+    <None Include="Resources\SetComputerVariable.ico" />
+    <None Include="Resources\SetComputerVariable_16.bmp" />
+    <None Include="Resources\SetComputerVariable_32.bmp" />
+    <None Include="Resources\SetPackageDescription.ico" />
+    <None Include="Resources\SetPackageDescription_16.bmp" />
+    <None Include="Resources\SetPackageDescription_32.bmp" />
+    <None Include="Resources\SetPackageSource.ico" />
+    <None Include="Resources\SetPackageSource_16.bmp" />
+    <None Include="Resources\SetPackageSource_32.bmp" />
+    <None Include="Resources\small_add.ico" />
+    <None Include="Resources\small_client.ico" />
+    <None Include="Resources\small_remove.ico" />
+    <None Include="Resources\SoftwareUpdate.ico" />
+    <None Include="Resources\SoftwareUpdatesPackage.ico" />
+    <None Include="Resources\SoftwareUpdatesPackage_16.bmp" />
+    <None Include="Resources\SoftwareUpdatesPackage_32.bmp" />
+    <None Include="Resources\SoftwareUpdate_16.bmp" />
+    <None Include="Resources\SoftwareUpdate_32.bmp" />
+    <None Include="Resources\supported_platforms.ico" />
+    <None Include="Resources\User.ico" />
+    <None Include="Resources\Variable.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QIK.Wizard.Images.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

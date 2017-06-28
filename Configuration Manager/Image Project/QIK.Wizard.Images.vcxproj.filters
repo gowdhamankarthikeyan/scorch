@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="QIK.Wizard.Images.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cs-object-task-16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\cs-object-task-32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\java-object-task-16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\java-object-task-32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Opalis.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Opalis_Icon_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Opalis_Icon_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\quick-integration-kit-16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\quick-integration-kit-32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="Resources\about.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\AddDP.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\AddNewComputer.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\AddNewComputer_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\AddNewComputer_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Advertisement.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Advertisement_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Advertisement_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\arrow.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\AssignPackagetoDP.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\AssignPackagetoDP_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\AssignPackagetoDP_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\AssociateComputerRecord.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\AssociateComputerRecord_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\AssociateComputerRecord_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Collection.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Collection_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Collection_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreateAdvertisement.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreateAdvertisement_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreateAdvertisement_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreateCollection.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreateCollection_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreateCollection_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreatePackage.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreatePackage_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreatePackage_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreateProgram.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreateProgram_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreateProgram_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreateSoftwareUpdatesPackage.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreateSoftwareUpdatesPackage_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\CreateSoftwareUpdatesPackage_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Delete.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteAdvertisement.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteAdvertisement_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteAdvertisement_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteCollection.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteCollection_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteCollection_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteCollectionVariable.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteCollectionVariable_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteCollectionVariable_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteComputerVariable.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteComputerVariable_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteComputerVariable_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeletePackage.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeletePackage_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeletePackage_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteProgram.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteProgram_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DeleteProgram_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DirectMembership.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\driver.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DriverPackage.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DriverPackage_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\DriverPackage_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Edit.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Flags.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Get.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetAdvertisement.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetAdvertisement_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetAdvertisement_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetCollection.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetCollection_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetCollection_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetCollectionMember.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetCollectionMember_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetCollectionMember_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetCollectionVariable.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetCollectionVariable_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetCollectionVariable_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetComputerVariable.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetComputerVariable_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetComputerVariable_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetDriver.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetDriver_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetDriver_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetDriverPackage.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetDriverPackage_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetDriverPackage_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetGroup.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetGroup_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetGroup_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetPackage.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetPackage_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetPackage_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetParentCollection.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetParentCollection_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetParentCollection_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetProgram.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetProgram_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetProgram_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetSoftwareUpdatesPackage.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetSoftwareUpdatesPackage_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetSoftwareUpdatesPackage_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetSubCollections.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetSubCollections_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetSubCollections_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetSystem.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetSystem_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetSystem_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetUser.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetUser_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\GetUser_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Group.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\IconProgress.xlsx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyAdvertisement.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyAdvertisement_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyAdvertisement_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyAdvertisementClientFlags.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyAdvertisementClientFlags_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyAdvertisementClientFlags_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyAdvertisementFlags.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyAdvertisementFlags_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyAdvertisementFlags_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyCollection.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyCollection_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyCollection_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyCollectionAddDirectMember.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyCollectionAddDirectMember_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyCollectionAddDirectMember_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyCollectionAddMembershipRule.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyCollectionAddMembershipRule_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyCollectionAddMembershipRule_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyDriver.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyDriver_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyDriver_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyDriverPackage.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyDriverPackage_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyDriverPackage_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyDriverPackageFlags.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyDriverPackageFlags_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyDriverPackageFlags_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyPackage.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyPackage_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyPackage_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyPackageFlags.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyPackageFlags_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyPackageFlags_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyProgram.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyProgram_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyProgram_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyProgramFlags.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyProgramFlags_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyProgramFlags_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyProgramSupportedPlatforms.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyProgramSupportedPlatforms_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyProgramSupportedPlatforms_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifySoftwareUpdatesPackage.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifySoftwareUpdatesPackage_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifySoftwareUpdatesPackage_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifySoftwareUpdatesPackageFlags.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifySoftwareUpdatesPackageFlags_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifySoftwareUpdatesPackageFlags_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyUpdatesAssignment.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyUpdatesAssignment_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyUpdatesAssignment_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyUpdatesAssignmentAddCIs.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyUpdatesAssignmentAddCIs_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyUpdatesAssignmentAddCIs_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyUpdatesAssignmentRemoveCIs.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyUpdatesAssignmentRemoveCIs_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ModifyUpdatesAssignmentRemoveCIs_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\New.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Package.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Package_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Package_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Package_blank.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Program.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Program_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Program_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Query.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Query_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Query_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\refresh.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RefreshCollection.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RefreshCollection_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RefreshCollection_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RefreshDP.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RefreshPackageatDistributionPoint.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RefreshPackageatDistributionPoint_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RefreshPackageatDistributionPoint_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RefreshPackageSource.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RefreshPackageSource_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RefreshPackageSource_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RemoveCollectionMembership.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RemoveCollectionMembership_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RemoveCollectionMembership_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RemoveDP.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RemovePackagefromDistributionPoint.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RemovePackagefromDistributionPoint_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\RemovePackagefromDistributionPoint_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SetCollectionVariable.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SetCollectionVariable_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SetCollectionVariable_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SetComputerVariable.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SetComputerVariable_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SetComputerVariable_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SetPackageDescription.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SetPackageDescription_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SetPackageDescription_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SetPackageSource.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SetPackageSource_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SetPackageSource_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\small_add.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\small_client.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\small_remove.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SoftwareUpdate.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SoftwareUpdate_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SoftwareUpdate_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SoftwareUpdatesPackage.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SoftwareUpdatesPackage_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\SoftwareUpdatesPackage_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\supported_platforms.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\User.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Variable.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QIK.Wizard.Images.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
